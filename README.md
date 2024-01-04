@@ -12,7 +12,7 @@ Pixel 7 Pro Android 11
 
 
 apk下载：
-目前还不会签名，下载apk后自行MT管理器签名
+目前还不会签名，下载apk后自行MT管理器签名或者ADB安装
 Google云盘
 https://drive.google.com/file/d/1XUUrRRpzezjtaffYQHd5eTgg6nXmfAuc/view?usp=sharing
 
