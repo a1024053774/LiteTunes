@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment"
+    android:background="@color/background"
+    >
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        android:textColor="@color/white"
+        >
+    </TextView>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_hint"
+        android:layout_below="@id/textview"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textColorHint="@color/white"
+        />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_hint"
+        android:layout_below="@id/name_input"
+        android:textSize="25dp"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_input"
+        android:layout_marginTop="20dp"
+        android:text="@string/register"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

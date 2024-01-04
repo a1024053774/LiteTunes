@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment"
+    android:background="@drawable/vague"
+    >
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/applemusic"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="130dp"></ImageView>
+
+    <TextView
+        android:id="@+id/logo_text"
+        android:layout_below="@id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LiteTunes"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="@color/icon_main_color"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_below="@id/logo_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/icon_main_color"
+        android:textStyle="bold"
+        >
+    </TextView>
+
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/name_hint"
+        android:layout_below="@id/textview"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textColorHint="@color/white"
+        android:background="@drawable/textviewbackground"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/email_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/email_hint"
+        android:layout_below="@id/name_input"
+        android:textSize="25dp"
+        android:textColorHint="@color/white"
+        android:background="@drawable/textviewbackground"
+        android:gravity="center"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/password_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/password_hint"
+        android:layout_below="@id/email_input"
+        android:textSize="25dp"
+        android:textColorHint="@color/white"
+        android:background="@drawable/textviewbackground"
+        android:gravity="center"
+        android:textColor="@color/white"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:id="@+id/LinearLayout"
+        android:layout_below="@id/password_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/textviewbackground"
+        >
+
+        <TextView
+            android:id="@+id/genderText"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:text="性别:"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <RadioGroup
+            android:layout_marginTop="5dp"
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp"
+            android:gravity="center"
+            >
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="男"
+                android:textSize="25dp"
+                android:textColor="@color/white"/>
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="女"
+                android:textSize="25dp"
+                android:textColor="@color/white"/>
+
+            <RadioButton
+                android:id="@+id/radioSecret"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="保密"
+                android:textSize="25dp"
+                android:textColor="@color/white"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:id="@+id/hobby"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/LinearLayout"
+        android:background="@drawable/textviewbackground">
+
+        <TextView
+            android:id="@+id/hobbyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="选择爱好:"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="旅行"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="看书"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="摄影"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register_button"
+        android:background="@drawable/textviewbackground"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/hobby"
+        android:layout_marginTop="15dp"
+        android:text="@string/register"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_first"
+        android:title="计算器"/>
+    <item android:id="@+id/menu_second"
+        android:title="拨打119"/>
+    <item android:id="@+id/menu_third"
+        android:title="获取SQLite数据"/>
+    <item android:id="@+id/menu_four"
+        android:title="Coroutines计时器"/>
+    <item android:id="@+id/menu_five"
+        android:title="绑定服务音乐播放器"/>
+    <item android:id="@+id/menu_six"
+        android:title="本地音乐播放器"/>
+    <item android:id="@+id/menu_seven"
+        android:title="录音机"/>
+    <item android:id="@+id/menu_eight"
+        android:title="本地视频播放器"/>
+    <item android:id="@+id/menu_nine"
+        android:title="OkHttp"/>
+</menu>

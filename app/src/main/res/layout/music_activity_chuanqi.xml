@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mohu_chuanqi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:padding="0dp">
+
+        <ImageView
+            android:id="@+id/image_chuanqi"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:gravity="center_horizontal"
+            android:src="@drawable/music_chuanqi" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="28dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="传奇" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="李健" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="0dp">
+
+        <ImageButton
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play" />
+
+        <ImageButton
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/stop" />
+
+    </LinearLayout>
+</LinearLayout>

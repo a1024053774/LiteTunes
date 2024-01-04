@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">LiteTunes</string>
+    <string name="menu1">列表</string>
+    <string name="menu2">电话</string>
+    <string name="menu3">SPINNER</string>
+    <string name="menu4">联系人</string>
+    <string name="name_hint">请输入用户名</string>
+    <string name="email_hint">请输入邮箱</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="edit_text_hint">请输入数字</string>
+    <string name="button_one">1</string>
+    <string name="button_two">2</string>
+    <string name="button_three">3</string>
+    <string name="button_four">4</string>
+    <string name="button_five">5</string>
+    <string name="button_six">6</string>
+    <string name="button_seven">7</string>
+    <string name="button_eight">8</string>
+    <string name="button_nine">9</string>
+    <string name="button_zero">0</string>
+    <string name="button_plus">+</string>
+    <string name="button_minus">-</string>
+    <string name="button_divide">÷</string>
+    <string name="button_equal">=</string>
+    <string name="button_dot">.</string>
+    <string name="button_discard">AC</string>
+    <string name="button_times">×</string>
+</resources>

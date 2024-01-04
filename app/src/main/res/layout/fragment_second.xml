@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment"
+    android:background="@drawable/vague"
+    >
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/applemusic"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="130dp"></ImageView>
+
+    <TextView
+        android:id="@+id/logo_text"
+        android:layout_below="@id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LiteTunes"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="@color/icon_main_color"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/icon_main_color"
+        android:textStyle="bold"
+        android:layout_below="@id/logo_text"
+        >
+    </TextView>
+
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/email_input"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/email_hint"
+        android:layout_below="@id/textview"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textColorHint="@color/white"
+        android:background="@drawable/textviewbackground"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/email_input"
+        android:layout_marginTop="30dp"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="35dp"
+        android:background="@drawable/textviewbackground"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/login_button"
+        android:background="@drawable/textviewbackground"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/password_input"
+        android:layout_marginTop="45dp"
+        android:text="@string/login"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+</RelativeLayout>

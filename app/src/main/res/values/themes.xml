@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Fragment" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Fragment" parent="Theme.AppCompat.DayNight" />
+
+    <style name="Base.Theme.Login" parent="Theme.AppCompat.DayNight">
+
+    </style>
+
+    <style name="Theme.Login" parent="Base.Theme.Login" />
+
+    <style name="Theme.CalculatorApp" parent="Theme.AppCompat"></style>
+    <style name="CalculatorButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="colorButtonNormal">@color/deepblue</item>
+    </style>
+
+    <style name="EditText" parent="Theme.AppCompat.DayNight">
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
